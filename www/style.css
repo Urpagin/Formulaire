@@ -1,0 +1,53 @@
+body {
+    background-color: #f1f7ff;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 5px;
+}
+
+.field {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+label, .civility-text {
+    color: olive;
+    font-weight: bold;
+}
+
+#label-civility1, #label-civility2 {
+    color: black;
+}
+
+
+#address {
+    width: 25%;
+}
+
+#civility-radio {
+    padding-bottom: 40px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background for the submit button */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Padding inside the button */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none; /* No border for the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change mouse cursor to pointer when hovering over the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker shade of green when hovering over the button */
+}
+
+.contact {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
