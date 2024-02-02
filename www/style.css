@@ -1,36 +1,56 @@
 body {
+    /* light blue background on the site */
     background-color: #f1f7ff;
 }
 
-/* Rounded border */
+.logo {
+    /* set the logo width to 10% of the page width & makes its corners rounded */
+    width: 10%;
+    border-radius: 30px;
+
+}
+
+.content-form {
+    /* Horizontally centers the content of formulaire.php */
+    text-align: center;
+}
+
+/* Makes all hr corners rounded and adds 5% of the page width in margin each side */
 hr.rounded {
     border-top: 4px solid #bbb;
     border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
+/* Adds padding above and below each label/input pair */
 .field {
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
+/* colors text */
 label, .civility-text {
     color: olive;
     font-weight: bold;
 }
 
+/* colors text */
 #label-civility1, #label-civility2 {
     color: black;
 }
 
-
+/* increases the size of the address text box to 25% the width of the page */
 #address {
     width: 25%;
 }
 
+/* adds 40 pixels of padding under the radio buttons */
 #civility-radio {
     padding-bottom: 40px;
 }
 
+/* Makes the submit button modern */
 input[type="submit"] {
     background-color: #4CAF50; /* Green background for the submit button */
     color: white; /* White text color */
@@ -42,12 +62,32 @@ input[type="submit"] {
     cursor: pointer; /* Change mouse cursor to pointer when hovering over the button */
 }
 
+/* submit btn becomes darker when hovered */
 input[type="submit"]:hover {
     background-color: #45a049; /* Darker shade of green when hovering over the button */
 }
 
+/* centers contact hyperlink and adds padding above and under it */
 .contact {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* --------- recapitulatif.php --------- */
+
+/* centers recapitulatif.php whole */
+.content-summary {
+    text-align: center;
+}
+
+/* sets color to title 'votre inscription' */
+.title {
+    color: chocolate;
+}
+
+/* sets color to subtitles 'vos coordonnées' & 'votre choix d'inscription' */
+.sub-title {
+    color: green;
+}
+
